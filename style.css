@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Merriweather", serif;
+}
+body {
+  width: 1600px;
+  height: 7350px;
+}
+.header {
+  width: 1600px;
+}
+.banner {
+  background-image: url(resources/Banner\ Image.png);
+  height: 600px;
+  width: 1320px;
+  margin: 50px 140px;
+  border-radius: 16px;
+}
+.small-text {
+  color: #fff;
+  text-align: center;
+  padding-top: 177px;
+  font-size: 32px;
+  font-weight: 400;
+}
+.bigger-text {
+  color: #fff;
+  text-align: center;
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 95px;
+}
+.discount {
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.d-percentage {
+  color: #f00;
+  font-family: "Inter", sans-serif;
+  font-size: 88px;
+  font-weight: 700;
+}
+.d-deals {
+  color: #f00;
+
+  font-family: Inter;
+  font-size: 24px;
+  padding-top: 48px;
+  font-weight: 400;
+}
+.d-category {
+  color: #070211;
+  margin-top: 10px;
+
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+}
+.image-3d {
+  height: 500px;
+  width: 800px;
+  padding-top: 50px;
+}
