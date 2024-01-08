@@ -15,7 +15,8 @@ body {
   width: 1600px;
 }
 .banner {
-  background-image: url(resources/Banner\ Image.png);
+  background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url(resources/Banner\ Image.png);
   height: 600px;
   width: 1320px;
   margin: 50px 140px;
@@ -51,7 +52,7 @@ body {
 .d-deals {
   color: #f00;
 
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-size: 24px;
   padding-top: 48px;
   font-weight: 400;
@@ -60,7 +61,7 @@ body {
   color: #070211;
   margin-top: 10px;
 
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-size: 48px;
   font-weight: 700;
 }
@@ -73,7 +74,9 @@ body {
   margin: 50px 140px;
 }
 .welcome-party-banner {
-  background-image: url(resources/Vectorrr.png);
+  background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url(resources/Vectorrr.png);
+
   height: 600px;
   width: 1320px;
   border-radius: 16px;
@@ -122,7 +125,7 @@ body {
 }
 .schedule-text {
   text-align: center;
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-size: 32px;
   font-weight: 600;
   line-height: 56px;
@@ -134,7 +137,7 @@ body {
 .schedule-btn {
   display: inline-block;
   color: #fff;
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-size: 20px;
   font-weight: 700;
   margin-left: 610px;
@@ -142,4 +145,64 @@ body {
   padding: 32px;
   background: #f00;
   border-radius: 8px;
+}
+.landing-page {
+  margin-top: 120px;
+  height: 460px;
+  display: flex;
+  justify-content: space-between;
+}
+.new-offer {
+  width: 390px;
+}
+.new-offer-text {
+  color: #f00;
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  padding-top: 120px;
+}
+.coming-soon-text {
+  color: #070211;
+  font-size: 48px;
+  padding-top: 15px;
+  font-weight: 900;
+}
+.description-text {
+  padding-top: 22px;
+  color: rgba(7, 2, 17, 0.6);
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+}
+.rounded-image {
+  height: 360px;
+  width: 360px;
+  border-radius: 50%;
+  padding: 50px;
+  border: 20px solid #f00;
+}
+.others {
+  width: 275px;
+}
+.new-y {
+  color: #f00;
+  font-family: "Inter", sans-serif;
+  padding-top: 120px;
+  font-size: 48px;
+  font-weight: 700;
+}
+.another-description-text {
+  padding-top: 22px;
+  color: rgba(7, 2, 17, 0.6);
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+}
+.group-96-img {
+  height: 140px;
+  width: 140px;
+  padding-top: 45px;
 }
