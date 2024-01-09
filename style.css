@@ -263,17 +263,29 @@ body {
 }
 .portfolio-image {
   margin-top: 45px;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
 }
-.portfolio-image-each {
-  border-radius: 16px;
-  margin: 12px;
-  width: 410px;
-  height: 450px;
+.p-image {
+  border: 5px solid white;
 }
-.portfolio-image-each:hover {
-  border: 5px solid rgb(97, 97, 226);
+.flex-1 {
+  display: flex;
+  gap: 20px;
+  padding-bottom: 20px;
+}
+
+.flex-2 {
+  display: flex;
+  gap: 20px;
+}
+
+.p-image:hover {
+  border: 5px solid lightsalmon;
 }
 /* code for portfolio ends here  */
+/* code for subscribe section starts here  */
 .subscribe {
   margin-top: 140px;
   height: 610px;
@@ -361,3 +373,4 @@ body {
   padding: 50px 0px;
   justify-content: space-between;
 }
+/* footer section ends here  */
